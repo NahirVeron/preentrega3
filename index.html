@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Salchicha</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper8/swiper-bundle.min.css"/>
+    
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header class="header">
+
+    <div class="menu container">
+        <a href="#" class="logo">SalchiTienda</a>
+        <input type="checkbox" id="menu">
+        <label for="menu"><img src="imagenes/yelp.svg" class="menu-icono" alt="menu"></label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <ul>
+            <li class="submenu">
+                <img src="imagenes/cart.svg" id="img-carrito" alt="">
+                <div id="carrito">
+                    <table id="lista-carrito">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+    
+
+
+
+
+    <div class="header-content">
+        <h1>SalchiStore</h1>
+        <p>
+            En nuestra SalchiStore van a encontrar muchos productos para que puedas elegir. Contamos con variedades de accesorios para que tu y tu perro puedan ser felices.
+        </p>
+        <div class="botons">
+            <a href="#" class="btn-1">Mas Informacion</a>
+            <a href="#" class="btn-1">Menu</a>
+
+        </div>
+        <div class="redesociales-1">
+            <img src="imagenes/instagram.svg" alt="">
+            <img src="imagenes/facebook.svg"alt="">
+            <img src="imagenes/twitter.svg"alt="">
+
+            <a href="#">
+                <img class="flecha" src="imagenes/cursor.svg" alt="">
+    
+            </a>
+
+        </div>
+        
+
+    </div>
+</header>
+<section  class="productos container">
+    <div class="accesorios-1">
+        <h3>Accesorios para Salchichas</h3>
+        <hr>
+        <p>Accesorios</p>
+    </div>
+    <div class="accesorios-2">
+        <h2>Accesorios para perros</h2>
+    </div>
+</section>
+
+
+<section class="accesorios container" id="lista-1">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <div class="accesorio">
+                <h3>Rampa para subir y bajar</h3>
+                <p class="precio">$20.000</p>
+                <img src="imagenes/rampaperrosalchicha.webp" alt="">
+                <p>Subir y bajar escalones es mejor que saltar, pero aun así puede producir peligrosas fuerzas de torsión en las articulaciones, por lo que la rampa angular para caminar es la mejor manera de prevenir lesiones.</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al  carrito</a>
+            </div>
+         </div>
+         
+        <div class="swiper-slide">
+            <div class="accesorio">
+                <h3>Taza perro salchicha</h3>
+                <p class="precio">$7000</p>
+                <img src="imagenes/tazaperrosalchicha.jpeg" alt="">
+                <p>Taza de ceramica perro salchicha, para que pueda disfrutar de tus desayunos y mediatardes</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al  carrito</a>
+            </div>
+         </div>
+         
+        <div class="swiper-slide">
+            <div class="accesorio">
+                <h3>Calcomanias perro salchicha</h3>
+                <p class="precio">$3000</p>
+                <img src="imagenes/Calcomaniaperrosalchicha.webp" alt="">
+                <p>Las calcomanias de perros salchichas, para que la puedas pegar en diferentes lugares, como auto, espejos , ventanas, celular, laptop.</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al  carrito</a>
+            </div>
+         </div>
+
+        <div class="swiper-slide">
+            <div class="accesorio">
+                <h3>Pechera Mujer maravilla</h3>
+                <p class="precio">$15.000</p>
+                <img src="imagenes/arnesdetelamujermaravillaperrosalchicha.jpeg" alt="">
+                <p>Arnes para perro salchicha, con diseño de mujer maravilla. Tienen una medida mediana.</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al  carrito</a>
+            </div>
+         </div>
+        
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+<section  class="productos container">
+    <div class="accesorios-2">
+        <h2>Alimentos para salchichas</h2>
+    </div>
+    <div class="accesorios-1">
+        <h3>Alimento <br> según edad</h3>
+        <hr>
+        <p>Alimentos</p>
+    </div>
+   
+</section>
+<section class="accesorios container" id="lista-2">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <div class="accesorio">
+                <h3 class="c1">Perro Cachorro<br> 
+                    Royal Canin Puppy Dachshund "Cachorro Dachshund"</h3>
+                <p class="precio">$9.000</p>
+                <img src="imagenes/alimento perro 1 mes.jpg" alt="">
+                <p class="c2">El alimento seco para perros Royal Canin Dachshund Puppy está diseñado para satisfacer las necesidades nutricionales de los Dachshunds de raza pura de 8 semanas a 10 meses de edad.
+
+                    Las croquetas o alimento seco para cachorros Royal Canin, han sido creadas a la medida para los Dachshund. Ya sea que tengas un Perro Salchicha Miniatura o Estándar, esta dieta exclusiva esta formulada para ofrecer los nutrientes necesarios para tu cachorro de Dachshund.</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al  carrito</a>
+            </div>
+         </div>
+         
+        <div class="swiper-slide">
+            <div class="accesorio">
+                <h3 class="c1">Perro Adulto <br> Royal Canin Adult Dachshund "Adulto Dachshund"</h3>
+                <p class="precio">$10.000</p>
+                <img src="imagenes/perroadulto.jpg" alt="">
+                <p class="c2">Alimento específico para perros Dachshund adultos a partir de los 10 meses de edad.
+
+                    El Dachshund tiene extremidades cortas y vértebras que están sometidas a fuertes tensiones mecánicas. Dachshund Adulto ayuda a promover la salud de los huesos y de las articulaciones del Dachshund gracias a un contenido adecuado de calcio y fósforo. Esta exclusiva fórmula también ayuda a mantener el peso ideal.</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al  carrito</a>
+            </div>
+         </div>
+         
+        <div class="swiper-slide">
+            <div class="accesorio">
+                <h3 class="c1">Perros salchichas senior <br> 
+                    Eukanuba Senior 7+ para Perros Mayores - Razas Pequeñas</h3>
+                <p class="precio">$10.000</p>
+                <img src="imagenes/perroviejo.jpg" alt="">
+                <p class="c2">Formulado para perros maduros de raza pequeña (hasta 10 kg de peso en la edad adulta) y a partir de los 7 años de edad.
+
+                    AYUDA A MANTENER ARTICULACIONES SANAS, UN 50% MÁS* DE GLUCOSAMINA
+                    
+                    Proteína animal en combinación con un 50% más* de glucosamina y sulfato de condroitina que mantienen la masa muscular y las articulaciones sanas.</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al  carrito</a>
+            </div>
+         </div>
+         
+       
+        
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+<section  class="productos container">
+    <div class="accesorios-1">
+        
+        <hr>
+        <p>Contacto</p>
+    </div>
+   
+</section>
+ <footer class="footer container">
+    <div class="links">
+        <div class="link">
+            <h3>Redes</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, nisi voluptates. Sint dolor doloremque laudantium accusantium, voluptas dignissimos modi laborum aliquam aliquid velit cum totam vel nulla repellendus amet consequatur.</p>
+            <div class="redesociales-2">
+                <img src="imagenes/instagram.svg" alt="">
+                <img src="imagenes/facebook.svg" alt="">
+                <img src="imagenes/twitter.svg" alt="">
+            </div>
+        </div>
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>  
+            </ul>
+            
+    </div>
+    <div class="link">
+        <h3>lorem</h3>
+        <ul>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>  
+        </ul>
+        
+</div>
+<div class="link">
+    <h3>Registro</h3>
+    <form>
+         <input type="text"  placeholder="Nombre" class="inp">
+         <input type="email"  placeholder="Email" class="inp">
+         <textarea class="inp"></textarea>
+         <input class="btn-4" type="submit" value="Enviar">
+    </form>
+    
+</div>
+
+</div>
+ </footer>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+ <script src="script.js"></script>
+</body> 
+</html>
